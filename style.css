@@ -1,0 +1,63 @@
+*{
+    font-family: 'Protest Riot', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    font-family: 'Protest Riot', sans-serif;
+    max-width: 80%;
+  
+    padding: 34px;
+    margin: auto;
+    color: white;
+}
+
+.container h1{
+    font-family: 'Protest Riot', sans-serif;
+    text-align: center;
+    
+}
+
+
+
+input, textarea{
+    border: 2px solid black;
+    border-radius: 11px;
+    outline: none;
+    margin: 11px;
+    padding: 7px;
+    width: 80%;
+    box-sizing: border-box;
+    font-size: 25px
+}
+
+form{
+    display :flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn{
+    color: white;
+    background: purple;
+    padding: 6px 10px;
+    border: 2px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+.pce{
+    width: auto;
+    position: absolute;
+    z-index: -1;
+    
+}
+
+.submitmsg{
+    font-size: 25px;
+    color : orange;
+}
